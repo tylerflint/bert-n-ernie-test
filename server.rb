@@ -17,4 +17,4 @@ module Test
   
 end
 
-Ernie.expose(:calc, Calc)
+Ernie.expose(:test, Test)

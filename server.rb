@@ -7,6 +7,10 @@ module Calc
     a + b
   end
   
+  def ls
+    `ls -la`
+  end
+  
 end
 
 Ernie.expose(:calc, Calc)

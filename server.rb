@@ -1,7 +1,7 @@
 # calc.rb
 require 'ernie'
 
-module Calc
+module Test
   
   def add(a, b)
     a + b
@@ -9,6 +9,10 @@ module Calc
   
   def ls
     `ls -la`
+  end
+  
+  def tail
+    `tail -F ./test.log`
   end
   
 end

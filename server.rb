@@ -1,8 +1,12 @@
 # calc.rb
 require 'ernie'
 
-mod(:calc) do
-  fun(:add) do |a, b|
+module Calc
+  
+  def add(a, b)
     a + b
   end
+  
 end
+
+Ernie.expose(:calc, Calc)

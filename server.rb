@@ -11,8 +11,8 @@ module Test
     `ls -la`
   end
   
-  def tail
-    `tail -F ./test.log`
+  def ps_aux
+    `ps aux`
   end
   
 end
